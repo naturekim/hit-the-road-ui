@@ -1,0 +1,116 @@
+* {
+  /* border: 1px solid red; */
+  margin: 0;
+  /* padding: 0; */
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+button {
+  font-size: 14px;
+  padding: 14px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.point-color {
+  color: rgb(82, 61, 31);
+  background-color: rgb(255, 231, 95);
+  border: none;
+  border-radius: 30px;
+}
+.outline-black {
+  background: none;
+  border: 1px solid black;
+  color: black;
+}
+.btn-round {
+  border-radius: 30px;
+}
+section {
+  text-align: center;
+}
+.section-title {
+  font-size: 23px;
+  margin: 30px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/**** Header ****/
+header {
+  display: flex;
+  margin: 30px;
+}
+header > * {
+  flex: 1;
+}
+header > *:first-child > ul {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+header > *:first-child > ul > li {
+  padding: 10px;
+}
+header > *:nth-child(2) {
+  text-align: center;
+  padding: 10px;
+}
+header > *:last-child {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+header > *:last-child > * {
+  margin: 10px;
+}
+/**** List ****/
+.list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.list > * {
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  margin: 30px;
+  background-color: rgb(238, 236, 236);
+}
+.list-header {
+  display: flex;
+}
+
+/**** Footer ****/
+footer {
+  display: flex;
+  justify-content: center;
+  color: grey;
+  margin: 30px;
+}
+footer > ul {
+  display: flex;
+}
+footer > ul > li {
+  padding: 10px;
+}
+
+/**** main - section1 ****/
+.main-1 {
+  margin: 80px 30px;
+}
+.main-1 > * {
+  margin: 30px;
+}
+.main-1 > *:nth-child(2) {
+  font-size: 50px;
+}
+.main-1 > *:nth-child(3) {
+  font-size: 18px;
+}
